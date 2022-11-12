@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Nunito', sans-serif;
+
+}
+a {text-decoration: none;
+}
+
+ul{list-style: none;}
+
+body, html  {
+    overflow-x: hidden;
+}
+
+section { width: 80%;
+margin: 80px auto;}
+/* header */
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(imagenes/fondo.bg.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-content {
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.header-content h2 { 
+    font-size: 4vmin;
+}
+.header-content h2 { 
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+.nav-links li {
+    margin: 0 30px;
+}
+
+.menu-btn { position: absolute;
+top:30px;
+right: 30px;
+width: 40px;
+cursor: pointer;}
+
+
+.line{width: 150px;
+    height: 4px;
+    background: #fc036b;
+    margin: 10px auto;
+    border-radius: 5px;}
+
+
+
+
+.ctn{padding: 10px 5px;
+    background: #fc036b;
+    border-radius: 30px;
+    color: whitesmoke;}
+
+.tittle {
+    text-align: center;
+    font-size: 4vmin;
+    color: rgb(73, 73, 126);
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.row .col {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.events .row {
+    margin-top: 50px;
+}
